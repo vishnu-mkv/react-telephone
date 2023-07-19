@@ -19,7 +19,7 @@
     "prepare": "husky install",
     "lint": "eslint --ignore-path .gitignore --ext .ts,.tsx .",
     "tsc": "tsc --noEmit",
-    "postinstall": "tsc --outDir ./dist"
+    "postinstall": "npm run build"
   },
   "license": "MIT",
   "homepage": "https://github.com/jorisre/react-telephone#readme",
